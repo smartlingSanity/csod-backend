@@ -1,0 +1,30 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.input-wrapper {
+  flex-grow: 4;
+  margin-right: auto;
+  position: relative;
+}
+
+.padding-right-input input {
+  padding-right: 3rem;
+}
+
+.input-wrapper input {
+  flex-grow: 4;
+  margin-right: auto;
+}
+
+.button-wrapper {
+  margin-left: 10px;
+}
+
+.link-container {
+  position: absolute;
+  right: 5px;
+  top: 12px;
+}

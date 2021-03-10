@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.page,
+.previous,
+.next,
+.break {
+  padding: 10px 0 10px 0;
+  color: blue;
+  background-color: white;
+  border: 1px solid lightgray;
+  cursor: pointer;
+}
+
+.pageLink {
+  padding: 10px;
+  outline: none;
+  color: blue;
+}
+
+.activeLink{
+  color: white;
+}
+
+.active {
+  background-color: blue;
+  border: 1px solid blue;
+}

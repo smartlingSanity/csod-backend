@@ -1,0 +1,13 @@
+{
+  "base": "en_us",
+  "languages": [
+    {
+      "name": "en_us",
+      "title": "English (US)"
+    },
+    {
+      "name": "en_gb",
+      "title": "English (UK)"
+    }
+  ]
+}

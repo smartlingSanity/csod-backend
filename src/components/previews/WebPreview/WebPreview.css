@@ -1,0 +1,12 @@
+@import "part:@sanity/base/theme/variables-style";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.url {
+  flex: 0;
+  padding: var(--medium-padding);
+}
